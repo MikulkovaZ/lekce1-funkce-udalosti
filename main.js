@@ -4,12 +4,13 @@ let ctverecek = document.querySelector(".ctverecek");
 
 
 function pocitej() {
-  ctverecek.style.backgroundColor = 'green';
+  
   document.querySelector("#vysledek").innerHTML = secti(4, 5);
-  alert("Gratulace, právě jsi spustila tutu funkci!");
-  console.log("Gratulace, právě jsi spustila tuut funkci!");
-  document.querySelector(".ctverecek").innerHTML = "Gratulace, právě jsi spustila tutu funkci!";
-  ctverecek.style.lineHeight = "25px";
+  
+}
+
+function zmenbarvu() {
+  ctverecek.style.backgroundColor = 'green';
 }
 
 /**
@@ -28,4 +29,9 @@ function secti(a, b) {
  */
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
+  console.log("Gratulace, právě jsi spustila tuto funkci!");
+  document.querySelector(".ctverecek").innerHTML = "Gratulace, právě jsi spustila tuto funkci!";
+  ctverecek.style.lineHeight = "25px";
 }
+
+
